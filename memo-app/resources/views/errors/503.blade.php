@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Laravel</title>
+        <title>Be right back.</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-        <link type="text/css" rel="stylesheet" href="{{asset('assets/stylesheets/top.css') }}">
-        <script src="{{asset('assets/javascripts/jquery-3.2.1 .js') }}"></script>
-        <script src="{{asset('assets/javascripts/top.js') }}"></script>
 
         <style>
             html, body {
@@ -17,6 +14,7 @@
                 margin: 0;
                 padding: 0;
                 width: 100%;
+                color: #B0BEC5;
                 display: table;
                 font-weight: 100;
                 font-family: 'Lato';
@@ -34,11 +32,16 @@
             }
 
             .title {
-                font-size: 96px;
+                font-size: 72px;
+                margin-bottom: 40px;
             }
         </style>
     </head>
     <body>
-        @yield('content')
+        <div class="container">
+            <div class="content">
+                <div class="title">Be right back.</div>
+            </div>
+        </div>
     </body>
 </html>

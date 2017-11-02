@@ -4,9 +4,7 @@
         <title>Laravel</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-        <link type="text/css" rel="stylesheet" href="{{asset('assets/stylesheets/top.css') }}">
-        <script src="{{asset('assets/javascripts/jquery-3.2.1 .js') }}"></script>
-        <script src="{{asset('assets/javascripts/top.js') }}"></script>
+        <script src="{{ asset('assets/javascripts/jquery-3.2.1.js') }}"></script>
 
         <style>
             html, body {
@@ -39,6 +37,11 @@
         </style>
     </head>
     <body>
+        <div class="container">
+            <div class="content">
+                <div class="title">Laravel 5</div>
+            </div>
+        </div>
         @yield('content')
     </body>
 </html>

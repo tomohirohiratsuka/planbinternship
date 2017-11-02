@@ -1,0 +1,44 @@
+body{
+  background-color: #f5f5f5;
+}
+
+.tab-menu{
+  width: 500px;
+  margin-left: 60px；
+}
+
+.tab-menu ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+}
+
+.tab-menu li{
+  display: inline-block;
+  width: 120px;
+  height: 22px;
+  padding: 10px 10px 5px;
+  cursor: pointer;
+  background-color: #AECD6A;
+  border-top-right-radius: 10px;
+  font-size: 14px;
+  color:#fff;
+  text-align: center;
+
+}
+
+.tabmenu li.selected{
+  background-color: #fff;
+  height: 360px;
+  padding: 20px;
+}
+
+.contents{
+  background-color: #fff;
+  height: 360px;
+  padding: 20px;
+}
+
+.contents .right{
+  display: none;
+}
